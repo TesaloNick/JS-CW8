@@ -5,10 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Nikolay Antonovich">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>JS-CW8</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    
+    <div class="sidebar">
+        <b>Choose the color: </b>
+        <input id="color" type="color">
+        <b>Choose the brush size: </b>
+        <input id="range" type="range" value="5" max="50" step="1">
+        <button id="clear" heigth='100px'>Clear</button>
+    </div>
+    <div id="canvas"></div>
 </body>
 </html>
